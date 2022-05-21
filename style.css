@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  bottom: 0;
+}
+
+body {
+  font-family: 'Courgette', cursive;
+}
+.wrapper {
+    background-image:url(fon6.jpg);
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.fon {
+ 
+}
+
+.text {
+  top: 50%;
+  left: 50%;
+  color: rgb(46, 4, 4);
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.flowers-wrap {
+  border-radius: 50%;
+height: 400px;
+width: 400px;
+background-color: pink;
+overflow: hidden;
+position: fixed;
+top: 0px;
+right: 0px;
+}
+
+.flowers {
+  width: 100%;
+}
+
+.poem {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(56, 15, 15);
+  background-color: white;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  font-weight: 400;
+  display: none;
+}
+
+.flowers-wrap:hover ~ .poem {
+  display: block;
+}
